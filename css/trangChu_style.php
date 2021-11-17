@@ -297,7 +297,7 @@ background-color: grey;
 .lienhe_content
 {
     width: 100%;
-    margin-top: 4%;
+    margin-top: 15%;
     padding: 10px 0px;
     background-color: rgba(255, 255, 255, 0.4);
 }
@@ -318,27 +318,34 @@ background-color: grey;
 }
 .form_lienhe .input_hvt
 {
-    margin-left:15%;
+    margin-left:20%;
     border-radius: 5px;
     border: none;
-    width: 70%;
+    width: 60%;
     height: 40px;
     font-size: 20px;
+    padding:10px 10px 10px 20px;
 }
+.input_hvt
+{
+    width: 30px; 
+}
+
 .form_lienhe .input_tel,
 .form_lienhe .input_email,
 .form_lienhe .input_khoahoc
 {
     border-radius: 5px;
     border: none;
-    margin-left:15%;
+    margin-left:20%;
     font-size: 20px;
-    width: 70%;
-    margin-top:50px;
-    height: 40px;
+    width: 60%;
+    margin-top:20px;
+    height: 50px;
+    padding:10px 10px 10px 20px;
 }
-.form_lienhe .input_khoahoc:invalid
-{
+.form_lienhe .input_khoahoc
+{width: 65%;
     color: gray;
 }
 .form_lienhe .input_btn
@@ -352,6 +359,6 @@ background-color: grey;
     width: 40%;
     height: 50px;
     margin-top:15px;
-    margin-left: 25%;
+    margin-left: 30%;
 }
 /*Liên hệ end*/

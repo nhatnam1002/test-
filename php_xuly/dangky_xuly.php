@@ -35,7 +35,7 @@ else
   $sql = " INSERT INTO dangky (username,tel, email, password, register_date) VALUES ('$username','$tel', '$email', '$password','$register_date')";
   if (mysqli_query($conn, $sql)) 
   {
-    header("Location: ../web/dangnky.php?success=1");
+    header("Location: ../web/dangky.php?success=1");
   } else 
   {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
